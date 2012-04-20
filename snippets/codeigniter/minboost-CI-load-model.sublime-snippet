@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$this->load->model('${1:model}');]]></content>
+	<tabTrigger>ciloadm</tabTrigger>
+	<scope>source.php</scope>
+	<description>CodeIgniter load a model</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$this->config->item('${1:item}')]]></content>
+	<tabTrigger>ciconf</tabTrigger>
+	<scope>source.php</scope>
+	<description>CodeIgniter config->item()</description>
+</snippet>

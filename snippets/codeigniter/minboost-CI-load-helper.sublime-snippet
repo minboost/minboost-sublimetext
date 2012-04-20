@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$this->load->helper('${1:helper}');]]></content>
+	<tabTrigger>ciloadh</tabTrigger>
+	<scope>source.php</scope>
+	<description>CodeIgniter load a helper</description>
+</snippet>

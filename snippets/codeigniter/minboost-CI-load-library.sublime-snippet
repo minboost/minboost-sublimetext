@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$this->load->library('${1:library}');]]></content>
+	<tabTrigger>ciloadl</tabTrigger>
+	<scope>source.php</scope>
+	<description>CodeIgniter load a library</description>
+</snippet>

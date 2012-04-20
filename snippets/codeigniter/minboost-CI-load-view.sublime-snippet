@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$this->load->view('${1:view}');]]></content>
+	<tabTrigger>ciloadv</tabTrigger>
+	<scope>source.php</scope>
+	<description>CodeIgniter load a view</description>
+</snippet>
