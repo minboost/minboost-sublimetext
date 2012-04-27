@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[* @param ${1:type}]]></content>
+	<tabTrigger>//p</tabTrigger>
+	<scope>source.php</scope>
+	<description>Comment @param</description>
+</snippet>

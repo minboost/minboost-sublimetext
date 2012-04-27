@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$this->db->limit(\$${1:limit}, \$${2:offset});]]></content>
+	<tabTrigger>cilimit</tabTrigger>
+	<scope>source.php</scope>
+	<description>CodeIgniter db->limit()</description>
+</snippet>

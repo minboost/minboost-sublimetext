@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[\$(function(){
+  ${1://code...}
+});]]></content>
+    <tabTrigger>jqready</tabTrigger>
+    <scope>source.js</scope>
+    <description>JQuery Ready</description>
+</snippet>

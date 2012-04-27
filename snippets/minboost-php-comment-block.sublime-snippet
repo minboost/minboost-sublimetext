@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[/**
+ * ${1:comment}
+ * 
+ * 
+ */]]></content>
+	<tabTrigger>//f</tabTrigger>
+	<scope>source.php</scope>
+	<description>Comment block</description>
+</snippet>

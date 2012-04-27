@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$this->db->from("${1:table}");]]></content>
+	<tabTrigger>cifrom</tabTrigger>
+	<scope>source.php</scope>
+	<description>CodeIgniter db->from()</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$${1:var} = (float)\$${1:var};]]></content>
+	<tabTrigger>float</tabTrigger>
+	<scope>source.php</scope>
+	<description>Cleans a FLOAT</description>
+</snippet>

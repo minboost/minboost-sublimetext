@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[// ------------------------------------------------------------------------]]></content>
+	<tabTrigger>//</tabTrigger>
+	<scope>source.php</scope>
+	<description>Comment line break</description>
+</snippet>

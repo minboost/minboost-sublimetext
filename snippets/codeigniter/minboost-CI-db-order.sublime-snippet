@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$this->db->order_by("${1:column}");]]></content>
+	<tabTrigger>ciorder</tabTrigger>
+	<scope>source.php</scope>
+	<description>CodeIgniter db->order_by()</description>
+</snippet>

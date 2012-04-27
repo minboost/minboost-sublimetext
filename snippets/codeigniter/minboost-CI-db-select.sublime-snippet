@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$this->db->select("${1:fields}");]]></content>
+	<tabTrigger>ciselect</tabTrigger>
+	<scope>source.php</scope>
+	<description>CodeIgniter db->select()</description>
+</snippet>

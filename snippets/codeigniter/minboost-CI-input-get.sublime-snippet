@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$this->input->get('${1:name}')]]></content>
+	<tabTrigger>ciget</tabTrigger>
+	<scope>source.php</scope>
+	<description>CodeIgniter input->get()</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[<?= ${1:} ?>]]></content>
+	<tabTrigger>eee</tabTrigger>
+	<scope>text.html - source.php</scope>
+	<description>PHP shorttag echo</description>
+</snippet>

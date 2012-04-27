@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[* @return ${1:type}]]></content>
+	<tabTrigger>//r</tabTrigger>
+	<scope>source.php</scope>
+	<description>Comment @return</description>
+</snippet>

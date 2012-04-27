@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[form_close();]]></content>
+	<tabTrigger>ciformc</tabTrigger>
+	<scope>source.php</scope>
+	<description>CodeIgniter form_open()</description>
+</snippet>

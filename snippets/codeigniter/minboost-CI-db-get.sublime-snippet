@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$this->db->get();]]></content>
+	<tabTrigger>cirs</tabTrigger>
+	<scope>source.php</scope>
+	<description>CodeIgniter db->get()</description>
+</snippet>

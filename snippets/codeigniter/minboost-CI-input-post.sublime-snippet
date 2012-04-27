@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$this->input->post('${1:name}')]]></content>
+	<tabTrigger>cipost</tabTrigger>
+	<scope>source.php</scope>
+	<description>CodeIgniter input->post()</description>
+</snippet>

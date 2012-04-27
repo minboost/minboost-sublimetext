@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$this->db->distinct("${1:field}");]]></content>
+	<tabTrigger>cidistinct</tabTrigger>
+	<scope>source.php</scope>
+	<description>CodeIgniter db->distinct()</description>
+</snippet>

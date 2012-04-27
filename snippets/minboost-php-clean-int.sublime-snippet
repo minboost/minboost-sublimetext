@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$${1:var} = (int)\$${1:var};]]></content>
+	<tabTrigger>int</tabTrigger>
+	<scope>source.php</scope>
+	<description>Clean an INT</description>
+</snippet>

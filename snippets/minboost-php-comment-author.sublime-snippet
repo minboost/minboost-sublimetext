@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[* @author ${1:minboost <min@minboost.com>}]]></content>
+	<tabTrigger>//a</tabTrigger>
+	<scope>source.php</scope>
+	<description>Comment @author</description>
+</snippet>

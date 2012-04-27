@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$this->db->like("${1:field}", "${2:value}", "${3:both}");]]></content>
+	<tabTrigger>cilike</tabTrigger>
+	<scope>source.php</scope>
+	<description>CodeIgniter db->like()</description>
+</snippet>

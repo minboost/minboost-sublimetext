@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[protected function ${1:_function_name}()
+{
+	${2:// code...}
+}]]></content>
+	<tabTrigger>pofx</tabTrigger>
+	<scope>source.php</scope>
+	<description>Protected function</description>
+</snippet>

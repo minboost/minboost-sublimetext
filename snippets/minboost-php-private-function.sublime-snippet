@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[private function ${1:_function_name}()
+{
+	${2:// code...}
+}]]></content>
+	<tabTrigger>prfx</tabTrigger>
+	<scope>source.php</scope>
+	<description>Private function</description>
+</snippet>
