@@ -6,12 +6,40 @@ class ${1:class_name}
 
 	// ------------------------------------------------------------------------
 
-	function __construct()
+	function __construct($params = array())
 	{
+		if (count($params) > 0)
+		{
+			$this->initialize($params);
+		}
 
+		log_message('debug', "${1:class_name} Class Initialized");
+	}
+
+	// --------------------------------------------------------------------
+
+	/**
+	 * Initialize Preferences
+	 *
+	 * @access	public
+	 * @param	array	initialization parameters
+	 * @return	void
+	 */
+	function initialize($params = array())
+	{
+		if (count($params) > 0)
+		{
+			foreach ($params as $key => $val)
+			{
+				if (isset($this->$key))
+				{
+					$this->$key = $val;
+				}
+			}
+		}
 	}
 }]]></content>
-	<tabTrigger>cilibrary</tabTrigger>
-	<scope>text.html - source</scope>
+	<tabTrigger>cilib</tabTrigger>
+	<scope>text</scope>
 	<description>CodeIgniter Library</description>
 </snippet>

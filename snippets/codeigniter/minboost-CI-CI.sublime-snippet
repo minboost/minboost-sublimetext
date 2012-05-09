@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$CI =& get_instance();]]></content>
+	<tabTrigger>cici</tabTrigger>
+	<scope>source.php</scope>
+	<description>CodeIgniter $CI instance</description>
+</snippet>

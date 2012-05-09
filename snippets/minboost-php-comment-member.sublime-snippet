@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[/**< ${1:description} */]]></content>
+	<tabTrigger>//1</tabTrigger>
+	<scope>source.php</scope>
+	<description>Comment member description (doxygen)</description>
+</snippet>
