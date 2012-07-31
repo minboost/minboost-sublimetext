@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[PHPUnit_Framework_Error_Warning]]></content>
+	<tabTrigger>phpunit-warning</tabTrigger>
+	<description>PHPUnit PHPUnit_Framework_Error</description>
+</snippet>

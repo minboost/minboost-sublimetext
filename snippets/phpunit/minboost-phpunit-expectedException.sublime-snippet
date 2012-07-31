@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[* @expectedException ${0:Exception}]]></content>
+	<tabTrigger>//ex</tabTrigger>
+	<description>PHPUnit expectedException</description>
+</snippet>

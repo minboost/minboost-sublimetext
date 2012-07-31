@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[* @depends ${0:func}]]></content>
+	<tabTrigger>//dep</tabTrigger>
+	<description>PHPUnit depends</description>
+</snippet>
