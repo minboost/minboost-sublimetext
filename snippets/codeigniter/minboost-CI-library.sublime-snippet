@@ -10,7 +10,7 @@ class ${1:class_name}
 	{
 		if (count(\$params) > 0)
 		{
-			\$this->initialize($params);
+			\$this->initialize(\$params);
 		}
 
 		log_message('debug', "${1:class_name} Class Initialized");
