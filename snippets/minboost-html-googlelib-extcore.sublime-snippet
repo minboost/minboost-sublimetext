@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[<script src="https://ajax.googleapis.com/ajax/libs/ext-core/3.1.0/ext-core.js"></script>]]></content>
+	<tabTrigger>googext</tabTrigger>
+	<scope>text</scope>
+	<description>Ext Core from Google Library API</description>
+</snippet>
