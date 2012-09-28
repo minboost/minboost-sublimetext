@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[/* End of file ${1:file_name}.php */
+/* Location: ./application/${2:file_path}${1:file_name}.php */]]></content>
+	<tabTrigger>//end</tabTrigger>
+	<scope>source.php</scope>
+	<description>End of file comment</description>
+</snippet>
