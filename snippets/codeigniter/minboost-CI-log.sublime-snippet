@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[log_message('debug', '${0:}');]]></content>
+	<tabTrigger>cilog</tabTrigger>
+	<scope>source.php</scope>
+	<description>CodeIgniter log message</description>
+</snippet>
