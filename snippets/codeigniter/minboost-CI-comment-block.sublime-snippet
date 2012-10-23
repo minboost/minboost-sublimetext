@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[/*
+|--------------------------------------------------------------------------
+| ${1:Block Heading}
+|--------------------------------------------------------------------------
+|
+| ${2:Block description}
+|
+*/]]></content>
+	<tabTrigger>//block</tabTrigger>
+	<scope>source.php</scope>
+	<description>CI style comment block</description>
+</snippet>
