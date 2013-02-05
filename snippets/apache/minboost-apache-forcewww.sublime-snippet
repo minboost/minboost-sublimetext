@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+RewriteEngine On
+	
+# Force www
+RewriteCond %{HTTP_HOST} ^${1:domain}\.com
+RewriteRule ^(.*)\$ http://www.${1:domain}.com/\$1 [R=permanent,L]]]></content>
+	<tabTrigger>htwww</tabTrigger>
+	<scope>text</scope>
+	<description>htaccess for www</description>
+</snippet>

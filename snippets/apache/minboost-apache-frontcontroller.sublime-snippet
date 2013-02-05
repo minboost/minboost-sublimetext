@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+RewriteEngine On
+
+# Restrict all except the list below, redirecting all traffic to the index.php
+RewriteCond \$1 !^(index\.php|favicon(.*)|apple-touch-icon(.*)|crossdomain\.xml|robots\.txt|css|js|img)
+RewriteRule ^(.*)\$ /index.php/\$1 [L]]]></content>
+	<tabTrigger>htfc</tabTrigger>
+	<scope>text</scope>
+	<description>htaccess front controller</description>
+</snippet>
