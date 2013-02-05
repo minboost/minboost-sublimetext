@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[if (\$this->input->server('REQUEST_METHOD') == 'POST') {
+	${1://code...}		
+}]]></content>
+	<tabTrigger>cipostback</tabTrigger>
+	<scope>source.php</scope>
+	<description>CodeIgniter Postback</description>
+</snippet>

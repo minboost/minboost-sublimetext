@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[lang('${1:key}')]]></content>
+	<tabTrigger>cilang</tabTrigger>
+	<scope>source.php</scope>
+	<description>CodeIgniter lang()</description>
+</snippet>

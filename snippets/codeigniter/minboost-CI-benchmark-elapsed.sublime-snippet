@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$this->benchmark->elapsed_time('${1:code_start}', '${2:code_end}');]]></content>
+	<tabTrigger>cimarke</tabTrigger>
+	<scope>source.php</scope>
+	<description>CodeIgniter benchmark elapsed</description>
+</snippet>

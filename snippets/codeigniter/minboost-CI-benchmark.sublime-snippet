@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$this->benchmark->mark('${0:mark_start}');]]></content>
+	<tabTrigger>cimark</tabTrigger>
+	<scope>source.php</scope>
+	<description>CodeIgniter benchmark</description>
+</snippet>

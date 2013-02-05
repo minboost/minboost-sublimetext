@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$lang['${1:key}'] = "${2:string}";]]></content>
+	<tabTrigger>cilangd</tabTrigger>
+	<scope>source.php</scope>
+	<description>CodeIgniter define lang[] value</description>
+</snippet>
