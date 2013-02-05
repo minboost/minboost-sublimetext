@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[<?php
+
+class ${1:class_name}
+{
+
+	// ------------------------------------------------------------------------
+
+	public function __construct()
+	{
+		
+	}
+}
+
+/* End of file ${1:file_name}.php */]]></content>
+	<tabTrigger>phpclass</tabTrigger>
+	<scope>text</scope>
+	<description>class</description>
+</snippet>
