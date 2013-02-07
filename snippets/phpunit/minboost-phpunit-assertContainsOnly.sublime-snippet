@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[assertContainsOnly('${1:type}', \$${2:array});]]></content>
+	<tabTrigger>assco</tabTrigger>
+	<description>PHPUnit assertContainsOnly</description>
+</snippet>

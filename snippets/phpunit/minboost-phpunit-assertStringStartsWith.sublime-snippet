@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[assertStringStartsWith('${1:prefix}', \$${2:result});]]></content>
+	<tabTrigger>assssw</tabTrigger>
+	<description>PHPUnit assertStringStartsWith</description>
+</snippet>

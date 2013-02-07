@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[assertTrue(\$${1:result});]]></content>
+	<tabTrigger>asst</tabTrigger>
+	<description>PHPUnit assertTrue</description>
+</snippet>

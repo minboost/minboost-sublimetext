@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[assertArrayHasKey('${1:key}', \$${2:array});]]></content>
+	<tabTrigger>assahk</tabTrigger>
+	<description>PHPUnit assertArrayHasKey</description>
+</snippet>

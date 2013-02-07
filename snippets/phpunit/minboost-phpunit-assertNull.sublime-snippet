@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[assertNull(\$${1:result});]]></content>
+	<tabTrigger>assn</tabTrigger>
+	<description>PHPUnit assertNull</description>
+</snippet>

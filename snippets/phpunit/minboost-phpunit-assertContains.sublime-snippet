@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[assertContains(${1:element}, \$${2:array});]]></content>
+	<tabTrigger>assc</tabTrigger>
+	<description>PHPUnit assertContains</description>
+</snippet>

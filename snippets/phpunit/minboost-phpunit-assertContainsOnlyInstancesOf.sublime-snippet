@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[assertContainsOnlyInstancesOf('${1:classname}', \$${2:array});]]></content>
+	<tabTrigger>asscoi</tabTrigger>
+	<description>PHPUnit assertContainsOnlyInstancesOf</description>
+</snippet>

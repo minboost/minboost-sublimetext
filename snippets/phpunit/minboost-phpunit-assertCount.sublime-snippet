@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[assertCount(${1:count}, \$${2:array});]]></content>
+	<tabTrigger>asscou</tabTrigger>
+	<description>PHPUnit assertCount</description>
+</snippet>

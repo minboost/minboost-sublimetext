@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[assertEmpty(\$${1:array});]]></content>
+	<tabTrigger>assem</tabTrigger>
+	<description>PHPUnit assertEmpty</description>
+</snippet>

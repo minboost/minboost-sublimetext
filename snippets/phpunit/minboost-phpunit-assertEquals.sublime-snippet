@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[assertEquals(\$${1:control}, \$${2:result});]]></content>
+	<tabTrigger>asse</tabTrigger>
+	<description>PHPUnit assertEquals</description>
+</snippet>

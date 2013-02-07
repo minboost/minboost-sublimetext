@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[assertClassHasStaticAttribute('${1:attribute}', '${2:class}');]]></content>
+	<tabTrigger>asschsa</tabTrigger>
+	<description>PHPUnit assertClassHasStaticAttribute</description>
+</snippet>

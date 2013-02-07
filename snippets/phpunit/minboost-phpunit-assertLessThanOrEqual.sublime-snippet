@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[assertLessThanOrEqual(${1:value}, \$${2:result});]]></content>
+	<tabTrigger>asslte</tabTrigger>
+	<description>PHPUnit assertLessThanOrEqual</description>
+</snippet>
