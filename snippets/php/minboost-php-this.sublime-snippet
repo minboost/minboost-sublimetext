@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[\$this]]></content>
-	<tabTrigger>th</tabTrigger>
+	<tabTrigger>this</tabTrigger>
 	<description>this</description>
 </snippet>
 

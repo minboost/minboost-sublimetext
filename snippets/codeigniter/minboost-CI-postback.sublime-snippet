@@ -1,8 +1,9 @@
 <snippet>
-	<content><![CDATA[if (\$this->input->server('REQUEST_METHOD') == 'POST') {
+	<content><![CDATA[if (\$this->input->server('REQUEST_METHOD') == 'POST')
+{
 	${1://code...}		
 }]]></content>
-	<tabTrigger>cipostback</tabTrigger>
+	<tabTrigger>cipb</tabTrigger>
 	<scope>source.php</scope>
 	<description>CodeIgniter Postback</description>
 </snippet>
