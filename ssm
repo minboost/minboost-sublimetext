@@ -10,7 +10,6 @@ function help () {
 # Sublime Text 2 Packages path
 prefix='User-'
 st2pkgpath=$HOME'/Library/Application Support/Sublime Text 2/Packages'
-snippetfolder=''
 
 # check settings
 if ! [ -d "$st2pkgpath" ]; then
@@ -26,20 +25,28 @@ if [[ $1 ]]; then
 			if [[ $2 ]];then
 				# check for all
 				if [[ $2 == "all" ]]; then
-					for i in $(find snippets -type d)
+					for i in $(find . -type d)
 					do
-					     echo "$i";
+						#strip './'
+						f=${i:2}
+
+						if [[ $f && ${f:0:1} != "." ]]; then
+							echo "Installing $f";
+
+						    # copy the files
+							cp -R "$i" "$st2pkgpath/$prefix$f"
+						fi
 					done
-				fi
+				else
+					# check for snippet folder
+					if ! [ -d "$2" ]; then
+					    echo "Could not find the snippet folder."
+					    exit;
+					fi
 
-				# check for snippet folder
-				if ! [ -d "$2" ]; then
-				    echo "Could not find the snippet folder."
-				    exit;
+					# copy the files
+					cp -R "$2" "$st2pkgpath/$prefix$2"
 				fi
-
-				# copy the files
-				cp -R "$2" "$st2pkgpath/$prefix$2"
 
 				# done
 				echo "Install complete."
