@@ -1,0 +1,67 @@
+#!/usr/bin/env sh
+
+function help () {
+	echo "ssm - sublime snippet manager";
+	echo "";
+	echo "    ssm install                - todo";
+	echo "    ssm uninstall              - todo";
+}
+
+# Sublime Text 2 Packages path
+prefix='User-'
+st2pkgpath=$HOME'/Library/Application Support/Sublime Text 2/Packages'
+snippetfolder=''
+
+# check settings
+if ! [ -d "$st2pkgpath" ]; then
+    echo "Could not find Sublime Text 2 package directory: $st2pkgpath";
+    exit;
+fi
+
+if [[ $1 ]]; then
+	# process command
+	case "$1" in
+		install )
+			
+			if [[ $2 ]];then
+				# check for snippet folder
+				if ! [ -d "snippets/$2" ]; then
+				    echo "Could not find the snippet folder."
+				    exit;
+				fi
+
+				# copy the files
+				cp -R "snippets/$2" "$st2pkgpath/$prefix$2"
+
+				# done
+				echo "Install complete."
+			else
+			    echo "Please provide a snippet folder name."
+			    exit;
+			fi
+
+			;;
+		uninstall )
+	
+			if [[ $2 ]];then
+				# check for snippet folder
+				if ! [ -d "$st2pkgpath/$prefix$2" ]; then
+				    echo "Snippet folder was not installed."
+				    exit;
+				fi
+
+				# remove the files
+				rm -rf "$st2pkgpath/$prefix$2"
+
+				# done
+				echo "Uninstall complete."
+			else
+			    echo "Please provide a snippet folder name."
+			    exit;
+			fi
+
+			;;
+	esac
+else
+	help
+fi
