@@ -24,14 +24,22 @@ if [[ $1 ]]; then
 		install )
 			
 			if [[ $2 ]];then
+				# check for all
+				if [[ $2 == "all" ]]; then
+					for i in $(find snippets -type d)
+					do
+					     echo "$i";
+					done
+				fi
+
 				# check for snippet folder
-				if ! [ -d "snippets/$2" ]; then
+				if ! [ -d "$2" ]; then
 				    echo "Could not find the snippet folder."
 				    exit;
 				fi
 
 				# copy the files
-				cp -R "snippets/$2" "$st2pkgpath/$prefix$2"
+				cp -R "$2" "$st2pkgpath/$prefix$2"
 
 				# done
 				echo "Install complete."
