@@ -18,7 +18,7 @@ class ${1:class_name} extends CI_Controller
 		${2:// code...}
 	}
 }]]></content>
-	<tabTrigger>cicontroller</tabTrigger>
+	<tabTrigger>cicont2</tabTrigger>
 	<scope>text.html - source</scope>
 	<description>CodeIgniter 2.x Controller</description>
 </snippet>
