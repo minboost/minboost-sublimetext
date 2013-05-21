@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[/**
+ * @class ${1:class}
+ * @brief ${2:brief}
+ */]]></content>
+	<tabTrigger>//c</tabTrigger>
+	<scope>source.php</scope>
+	<description>Comment block for class</description>
+</snippet>

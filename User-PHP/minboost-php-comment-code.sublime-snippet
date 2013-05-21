@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[* @code
+*	${1:type}
+* @endcode]]></content>
+	<tabTrigger>//code</tabTrigger>
+	<scope>source.php</scope>
+	<description>Comment code</description>
+</snippet>

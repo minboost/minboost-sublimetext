@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[* @warning ${1:message}]]></content>
+	<tabTrigger>//w</tabTrigger>
+	<scope>source.php</scope>
+	<description>Comment warning message</description>
+</snippet>
