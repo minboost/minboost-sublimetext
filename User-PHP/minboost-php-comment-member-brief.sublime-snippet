@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[//!< ${1:briefdescription}m]]></content>
+	<content><![CDATA[//!< ${1:briefdescription}]]></content>
 	<tabTrigger>//1</tabTrigger>
 	<scope>source.php</scope>
 	<description>Comment brief description of a class member</description>
