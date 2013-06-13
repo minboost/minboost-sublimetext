@@ -1,0 +1,3 @@
+{
+	"cmd": ["/usr/bin/php", "-l", "$file"]
+}
