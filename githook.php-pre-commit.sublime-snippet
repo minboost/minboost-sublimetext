@@ -1,0 +1,82 @@
+<snippet>
+	<content><![CDATA[<?#!/usr/bin/php
+<?${TM_PHP_OPEN_TAG:php}
+// ------------------------------------------------------------------------
+// PHP Lint Test
+
+\$output = array();
+\$return = 0;
+exec('git rev-parse --verify HEAD 2> /dev/null', \$output, \$return);
+\$against = \$return == 0 ? 'HEAD' : '4b825dc642cb6eb9a060e54bf8d69288fbee4904';
+
+exec("git diff-index --cached --name-only {\$against}", \$output);
+
+\$filename_pattern = '/\.php\$/';
+\$exit_status = 0;
+
+foreach (\$output as \$file)
+{
+    // don't check files that aren't PHP
+    if (!preg_match(\$filename_pattern, \$file)) continue;
+
+    \$lint_output = array();
+    exec("php -l " . escapeshellarg(\$file), \$lint_output, \$return);
+    if (\$return == 0) continue;
+
+    echo implode("\n", \$lint_output), "\n";
+    \$exit_status = 1;
+}
+
+if (\$exit_status != 0)
+{
+    exit(\$exit_status);   
+}
+
+// ------------------------------------------------------------------------
+// PHPUnit Tests
+
+// test suite path
+\$test_suite_file = realpath(dirname(__FILE__)).'${1:path_to_test_suite}.php';
+
+echo PHP_EOL;
+echo '+ Starting PHPUnit tests...';
+
+\$output = array();
+\$return = 0;
+ 
+// Execute project unit tests
+exec('phpunit '.\$test_suite_file, \$output, \$return);
+ 
+// if the build failed, output a summary and fail
+if (\$return !== 0)
+{
+    // find the line with the summary; this might not be the last
+    while ((\$test_summary = array_pop(\$output)) !== null)
+    {
+        if (strpos(\$test_summary, 'Tests:') !== false)
+        {
+            break;
+        }
+    }
+ 
+    // output the status and abort the commit
+    echo 'FAIL'.PHP_EOL;
+    echo ''.\$test_summary;
+    // echo chr(27).'[0m'.PHP_EOL; // disable colors and add a line break
+    echo PHP_EOL;
+    exit(1);
+}
+
+echo 'PASS'.PHP_EOL;
+ 
+// ------------------------------------------------------------------------
+
+// passed
+echo '+ All tests passed.'.PHP_EOL;
+echo PHP_EOL;
+
+exit(0);]]></content>
+	<tabTrigger>gitprecommitphp</tabTrigger>
+	<scope>text</scope>
+	<description>Git Pre-Commit Hook for PHP</description>
+</snippet>
