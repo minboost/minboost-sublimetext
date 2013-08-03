@@ -13,7 +13,7 @@ There is a PHP build system that will run lint (`php -l`) when building a PHP fi
 There is one theme, which is an inverted color scheme (gray text on black background) that is easy on the eyes.
 
 ### Other
-The Icon.png file is used as an icon for the repo if you're using [Towerapp][http://www.git-tower.com/].
+The Icon.png file is used as an icon for the repo if you're using [Towerapp](http://www.git-tower.com/).
 
 Installation
 ------------
