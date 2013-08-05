@@ -45,7 +45,7 @@ echo '+ Starting PHPUnit tests...';
 \$return = 0;
  
 // Execute project unit tests
-exec('phpunit '.\$test_suite_file, \$output, \$return);
+exec('phpunit "'.\$test_suite_file.'"', \$output, \$return);
  
 // if the build failed, output a summary and fail
 if (\$return !== 0)
@@ -53,7 +53,8 @@ if (\$return !== 0)
     // find the line with the summary; this might not be the last
     while ((\$test_summary = array_pop(\$output)) !== null)
     {
-        if (strpos(\$test_summary, 'Tests:') !== false)
+        if (strpos(\$test_summary, 'Tests:') !== false
+            || strpos(\$test_summary, 'Cannot open file') !== false)
         {
             break;
         }
@@ -61,7 +62,7 @@ if (\$return !== 0)
  
     // output the status and abort the commit
     echo 'FAIL'.PHP_EOL;
-    echo ''.\$test_summary;
+    echo \$test_summary;
     // echo chr(27).'[0m'.PHP_EOL; // disable colors and add a line break
     echo PHP_EOL;
     exit(1);
