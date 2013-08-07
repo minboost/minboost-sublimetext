@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[<snippet>
+    <content><![CDATA[${5:code}${4:]}]></content>
+    <tabTrigger>${1:tab}</tabTrigger>
+    <scope>${2:text}</scope>
+    <description>${3:description}</description>
+</snippet>]]></content>
+    <tabTrigger>snip</tabTrigger>
+    <scope>text</scope>
+    <description>SublimeText Snippet Snippet</description>
+</snippet>
