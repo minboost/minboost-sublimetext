@@ -19,12 +19,15 @@ foreach (\$output as \$file)
     // don't check files that aren't PHP
     if (!preg_match(\$filename_pattern, \$file)) continue;
 
-    \$lint_output = array();
-    exec("php -l " . escapeshellarg(\$file), \$lint_output, \$return);
-    if (\$return == 0) continue;
+    if (file_exists(\$file))
+    {
+        \$lint_output = array();
+        exec("php -l " . escapeshellarg(\$file), \$lint_output, \$return);
+        if (\$return == 0) continue;
 
-    echo implode("\n", \$lint_output), "\n";
-    \$exit_status = 1;
+        echo implode("\n", \$lint_output), "\n";
+        \$exit_status = 1;
+    }
 }
 
 if (\$exit_status != 0)
