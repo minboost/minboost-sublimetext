@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>${1:title}</title>
+        <meta name="description" content="">
+    </head>
+    <body>
+        ${2:body}
+    </body>
+</html>]]></content>
+    <tabTrigger>htpage</tabTrigger>
+    <scope>text - source.php</scope>
+    <description>HTML Page</description>
+</snippet>
