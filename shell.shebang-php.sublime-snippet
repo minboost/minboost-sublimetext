@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[#!/usr/bin/php
 ${1:code}]]></content>
-    <tabTrigger>#!php</tabTrigger>
-    <scope>text</scope>
+    <tabTrigger>php</tabTrigger>
+    <scope>source</scope>
     <description>Shebang for PHP</description>
 </snippet>

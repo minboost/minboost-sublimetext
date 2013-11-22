@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[#!/usr/bin/env bash
 ${1:code}]]></content>
-    <tabTrigger>#!bash</tabTrigger>
-    <scope>text</scope>
+    <tabTrigger>bash</tabTrigger>
+    <scope>source</scope>
     <description>Shebang for BASH</description>
 </snippet>
