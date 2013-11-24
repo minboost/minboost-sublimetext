@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[private function ${1:_function_name}()
 {
-	${2:// code...}
+	${2:// TODO}
 }]]></content>
 	<tabTrigger>prfx</tabTrigger>
 	<scope>source.php</scope>
