@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[<?php
+
+class ${1:class_name}Test extends PHPUnit_Framework_TestCase
+{
+
+	// ------------------------------------------------------------------------
+
+	public function test_${2:fx}()
+	{
+		${3:// TODO}	
+	}
+}
+
+/* End of file ${1:file_name}Test.php */]]></content>
+	<tabTrigger>phptestcase</tabTrigger>
+	<scope>text</scope>
+	<description>PHPUnit TestCase</description>
+</snippet>

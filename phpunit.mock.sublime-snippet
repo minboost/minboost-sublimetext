@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[->expects(\$this->${1:any}())
+->method('${2:method}')
+->will(\$this->returnValue(${3:value}));]]></content>
+    <tabTrigger>mock</tabTrigger>
+    <scope>text</scope>
+    <description>PHPUnit Mock chain</description>
+</snippet>
