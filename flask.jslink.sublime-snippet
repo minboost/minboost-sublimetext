@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[{{ url_for('static', filename='js/${1:script}.js') }}]]></content>
+    <tabTrigger>jjjs</tabTrigger>
+    <scope>text</scope>
+    <description>Python/Jinja js link</description>
+</snippet>
