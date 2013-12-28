@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[#!/usr/bin/env python
+import sys
+import os
+
+def help():
+	print "Help not defined"
+
+def main():
+	${1:code}
+
+if __name__ == "__main__":
+	if len(sys.argv) < 2:
+		help()
+	else:
+		main()]]></content>
+    <tabTrigger>python</tabTrigger>
+    <scope>text.plain, source.python</scope>
+    <description>Shebang for Python</description>
+</snippet>
