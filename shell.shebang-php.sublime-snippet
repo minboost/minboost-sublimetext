@@ -2,6 +2,6 @@
     <content><![CDATA[#!/usr/bin/php
 ${1:code}]]></content>
     <tabTrigger>php</tabTrigger>
-    <scope>source</scope>
+    <scope>text.plain, source.php</scope>
     <description>Shebang for PHP</description>
 </snippet>

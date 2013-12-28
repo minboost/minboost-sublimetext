@@ -2,6 +2,6 @@
     <content><![CDATA[#!/usr/bin/env bash
 ${1:code}]]></content>
     <tabTrigger>bash</tabTrigger>
-    <scope>source</scope>
+    <scope>text.plain, source.shell</scope>
     <description>Shebang for BASH</description>
 </snippet>
