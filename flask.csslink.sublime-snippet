@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[{{ url_for('static', filename='css/${1:base}.css') }}]]></content>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/${1:base}.css') }}" />]]></content>
     <tabTrigger>jjcss</tabTrigger>
     <scope>text</scope>
     <description>Python/Jinja css link</description>

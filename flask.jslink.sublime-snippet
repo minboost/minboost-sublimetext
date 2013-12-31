@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[{{ url_for('static', filename='js/${1:script}.js') }}]]></content>
+    <content><![CDATA[<script type="text/javascript" src="{{ url_for('static', filename ='js/${1:script}.js') }}"></script>]]></content>
     <tabTrigger>jjjs</tabTrigger>
     <scope>text</scope>
     <description>Python/Jinja js link</description>

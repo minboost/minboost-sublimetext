@@ -1,8 +1,8 @@
 <snippet>
-    <content><![CDATA[@app.route('/${1:route}')
-def ${2:func}():
-	${4:#TODO}
-	return render_template('${3:template}.html')]]></content>
+    <content><![CDATA[@${1:app}.route('/${2:route}')
+def ${3:func}():
+	${5:#TODO}
+	return render_template('${4:template}.html')]]></content>
     <tabTrigger>route</tabTrigger>
     <scope>source.python</scope>
     <description>description</description>

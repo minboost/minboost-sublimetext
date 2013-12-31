@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[{{ url_for('static', filename='img/${1:file.jpg}') }}]]></content>
+    <content><![CDATA[<img src="{{ url_for('static', filename='img/${1:file.jpg}') }}" alt="${2:}">]]></content>
     <tabTrigger>jjimg</tabTrigger>
     <scope>text</scope>
     <description>Python/Jinja image link</description>
