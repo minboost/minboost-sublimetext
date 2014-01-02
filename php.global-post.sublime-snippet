@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$_POST['${1:key}']]]></content>
+	<tabTrigger>p</tabTrigger>
+	<scope>source.php</scope>
+	<description>PHP $_POST</description>
+</snippet>
