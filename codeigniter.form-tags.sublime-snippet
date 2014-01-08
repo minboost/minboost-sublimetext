@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[<?php echo form_open('${1:path}'${2:, array('id' => '${3:form-id}')})?>
+	${4:}
+<?php echo form_close() ?>]]></content>
+    <tabTrigger>ciform</tabTrigger>
+    <scope>text.html.basic</scope>
+    <description>CI Form Helpers</description>
+</snippet>

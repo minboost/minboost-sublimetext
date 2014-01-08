@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[form_open(\$this->uri->uri_string(), ${1:array('id' => 'form')});]]></content>
-	<tabTrigger>ciformo</tabTrigger>
-	<scope>source.php</scope>
-	<description>CodeIgniter form_open()</description>
-</snippet>
