@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[methods=[${1:'GET', }${2:'POST'}]]]></content>
+    <tabTrigger>meth</tabTrigger>
+    <scope>source.python</scope>
+    <description>Methods param for Flask route</description>
+</snippet>
