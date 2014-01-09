@@ -1,6 +1,7 @@
 <snippet>
 	<content><![CDATA[\$this]]></content>
-	<tabTrigger>this</tabTrigger>
-	<description>this</description>
+	<tabTrigger>th</tabTrigger>
+	<scope>source.php, source.php.embedded.line.empty.html, source.php.embedded.block.html</scope>
+	<description>$this</description>
 </snippet>
 
