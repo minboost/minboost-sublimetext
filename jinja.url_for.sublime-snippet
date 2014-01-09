@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[{{ url_for('${1:view.method}'${2:, ${3:var='val'}}) }}]]></content>
+    <tabTrigger>url</tabTrigger>
+    <scope>text.html.jinja</scope>
+    <description>Jinja url_for</description>
+</snippet>
