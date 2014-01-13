@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[{% endif %}]]></content>
+    <tabTrigger>endif</tabTrigger>
+    <scope>text.html.jinja</scope>
+    <description>Jinja end if</description>
+</snippet>
