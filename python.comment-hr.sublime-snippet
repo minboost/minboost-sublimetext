@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[# -----------------------------------------------------------------------------]]></content>
+    <tabTrigger>--</tabTrigger>
+    <scope>source.python</scope>
+    <description>Comment horizontal rule, 79 chars long</description>
+</snippet>
