@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-Backbone.View.extend({${0:properties}});
-]]></content>
-    <tabTrigger>bbv</tabTrigger>
-    <scope>source.js</scope>
-    <description>Backbone View</description>
-</snippet>

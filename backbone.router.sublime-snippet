@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-Backbone.Router.extend({${0:properties}});
-]]></content>
-    <tabTrigger>bbr</tabTrigger>
-    <scope>source.js</scope>
-    <description>Backbone Router</description>
-</snippet>
