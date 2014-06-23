@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[{{store url="${1:path/to}"}}]]></content>
-	<tabTrigger>magestore</tabTrigger>
-	<scope>text, source.html</scope>
-	<description>Magento Var store url</description>
-</snippet>

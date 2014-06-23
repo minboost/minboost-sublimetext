@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[{{skin url="${1:path/to}"}}]]></content>
-	<tabTrigger>mageskin</tabTrigger>
-	<scope>text, source.html</scope>
-	<description>Magento Var skin url</description>
-</snippet>

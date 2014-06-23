@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[{{direct url="${1:path/to}"}}]]></content>
-	<tabTrigger>magedirect</tabTrigger>
-	<scope>text, source.html</scope>
-	<description>Magento Var direct url</description>
-</snippet>
