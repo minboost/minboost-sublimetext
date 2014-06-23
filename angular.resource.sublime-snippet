@@ -1,12 +1,11 @@
 <snippet>
-    <content><![CDATA[angular.module('resources.${1:name}', [])
-.factory('${1:name}', ['\$resource', function (\$resource) {
+    <content><![CDATA[angular.module('${1:minboostResources}', []).factory('${1:name}', ['\$resource', function (\$resource) {
 
 	var resource = $resource('${2:url}', {id: '@id'});
 
 	return resource;
 }]);]]></content>
     <tabTrigger>ngres</tabTrigger>
-    <scope>source.js</scope>
-    <description>AngularJS resource</description>
+    <scope>text.plain, source.js</scope>
+    <description>AngularJS resource as a module</description>
 </snippet>

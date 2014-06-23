@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[angular.module('${1:minboostService}', []).factory('${2:serviceName}', ['\$rootScope',
+    function (\$rootScope) {
+
+        var service = {
+        	${3:// TODO:}
+        };
+
+        return service;
+    }
+]);]]></content>
+    <tabTrigger>ngser</tabTrigger>
+    <scope>text.plain, source.js</scope>
+    <description>AngularJS service</description>
+</snippet>

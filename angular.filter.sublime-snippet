@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[angular.module('${1:minboostFilters}', []).filter('${2:filtername}', function(){
+	return function (input) {
+
+		${3:// TODO:}
+
+		return input;
+	};
+});]]></content>
+    <tabTrigger>ngfil</tabTrigger>
+    <scope>text.plain, source.js</scope>
+    <description>AngularJS filter</description>
+</snippet>

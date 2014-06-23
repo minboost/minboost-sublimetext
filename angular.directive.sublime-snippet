@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[angular.module('${1:minboostDirective}', []).directive('${2:directiveName}', [
+    function () {
+        return {
+            restring: 'E',
+            replace: true,
+            require : 'ngModel',
+            scope: {
+                ngModel: '='
+            },
+            template: '',
+            link: function (\$scope, element, attrs) {
+                ${3:// TODO:}
+            }
+        }
+    }
+]);]]></content>
+    <tabTrigger>ngdir</tabTrigger>
+    <scope>text.plain, source.js</scope>
+    <description>AngularJS directive</description>
+</snippet>
