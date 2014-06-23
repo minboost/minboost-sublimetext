@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[<script src="https://ajax.googleapis.com/ajax/libs/mootools/${1:1.4.5}/mootools-yui-compressed.js"></script>]]></content>
-	<tabTrigger>googmoo</tabTrigger>
-	<scope>text</scope>
-	<description>MooTools from Google Library API</description>
-</snippet>
