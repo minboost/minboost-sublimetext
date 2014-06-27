@@ -1,9 +1,9 @@
 <snippet>
-    <content><![CDATA[angular.module('${1:minboostService}', []).factory('${2:serviceName}', ['\$rootScope',
-    function (\$rootScope) {
+    <content><![CDATA[.factory('${1:serviceName}', [${2:'${3:\$rootScope}'},
+    function (${2:${3:\$rootScope}}) {
 
         var service = {
-        	${3:// TODO:}
+        	${4:// TODO:}
         };
 
         return service;

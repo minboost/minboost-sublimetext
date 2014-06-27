@@ -1,8 +1,8 @@
 <snippet>
-    <content><![CDATA[angular.module('${1:minboostFilters}', []).filter('${2:filtername}', function(){
+    <content><![CDATA[.filter('${1:filtername}', function(){
 	return function (input) {
 
-		${3:// TODO:}
+		${2:// TODO:}
 
 		return input;
 	};

@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[.controller('${1:name}', ['\$scope', ${2:'${3:}'},
+    function (\$scope, ${3:}){
+        ${4:// TODO:}
+    }
+])]]></content>
+    <tabTrigger>ngcon</tabTrigger>
+    <scope>text.plain, source.js</scope>
+    <description>AngularJS module</description>
+</snippet>

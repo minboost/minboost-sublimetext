@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[angular.module('${1:}', [${2:'${3:}'},
+    function(${3:}){
+        ${4:// TODO:}
+    }
+])]]></content>
+    <tabTrigger>ngmod</tabTrigger>
+    <scope>text.plain, source.js</scope>
+    <description>AngularJS module</description>
+</snippet>

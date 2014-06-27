@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[angular.module('${1:minboostDirective}', []).directive('${2:directiveName}', [
+    <content><![CDATA[.directive('${1:directiveName}', [
     function () {
         return {
             restring: 'E',
@@ -10,7 +10,7 @@
             },
             template: '',
             link: function (\$scope, element, attrs) {
-                ${3:// TODO:}
+                ${2:// TODO:}
             }
         }
     }

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[angular.module('${1:}', [])]]></content>
+    <tabTrigger>ngmodd</tabTrigger>
+    <scope>text.plain, source.js</scope>
+    <description>AngularJS module prefix</description>
+</snippet>
