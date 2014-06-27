@@ -2,7 +2,7 @@
     <content><![CDATA[.directive('${1:directiveName}', [
     function () {
         return {
-            restring: 'E',
+            restrict: 'E',
             replace: true,
             require : 'ngModel',
             scope: {

@@ -1,6 +1,6 @@
 <snippet>
-    <content><![CDATA[.controller('${1:name}', ['\$scope', ${2:'${3:}'},
-    function (\$scope, ${3:}){
+    <content><![CDATA[.controller('${1:name}', ['\$scope', ${2:}
+    function (\$scope${3:}){
         ${4:// TODO:}
     }
 ])]]></content>
