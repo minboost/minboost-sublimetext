@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[{
+  "directory" : "${1:path}"
+}]]></content>
+    <tabTrigger>bowerrc</tabTrigger>
+    <scope>text.plain</scope>
+    <description>Bower config</description>
+</snippet>
