@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[blueprint.add_url_rule(
+		'/${1:}',
+		view_func=${2:view},
+		methods=['GET'],
+		)]]></content>
+    <tabTrigger>urlrule</tabTrigger>
+    <scope>source.python</scope>
+    <description>Flask blueprint add_url_rule</description>
+</snippet>
