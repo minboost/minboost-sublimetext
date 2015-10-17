@@ -22,6 +22,6 @@ class ${1:class_name} extends ${2:CI}_Controller
 /* End of file ${4:file_name}.php */
 /* Location: ./application/controllers/${4:file_name}.php */]]></content>
 	<tabTrigger>cicont</tabTrigger>
-	<scope>text - source.php</scope>
+	<scope>source.php</scope>
 	<description>CodeIgniter 2.x Controller</description>
 </snippet>
