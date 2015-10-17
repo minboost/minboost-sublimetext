@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[self.${1:val} = ${1:val}]]></content>
+    <tabTrigger>di</tabTrigger>
+    <scope>source.python</scope>
+    <description>Dependancy Injection (self) Assignment</description>
+</snippet>

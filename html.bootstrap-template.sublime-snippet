@@ -1,0 +1,22 @@
+<snippet>
+    <content><![CDATA[<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>${1:title}</title>
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap-theme.min.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container${2:-fluid}">
+		${3:}
+	</div>
+</body>
+</html>]]></content>
+    <tabTrigger>bs</tabTrigger>
+    <scope>text.plain, text.html</scope>
+    <description>Twitter Bootstrap HTML template</description>
+</snippet>

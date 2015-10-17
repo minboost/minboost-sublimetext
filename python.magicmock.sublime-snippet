@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[MagicMock(${1:})]]></content>
+    <tabTrigger>mm</tabTrigger>
+    <scope>source.python</scope>
+    <description>MagicMock</description>
+</snippet>

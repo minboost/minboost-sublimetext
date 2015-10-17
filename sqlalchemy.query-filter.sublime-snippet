@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[query = query.filter(${1:})]]></content>
+    <tabTrigger>qf</tabTrigger>
+    <scope>source.python</scope>
+    <description>SQLAlchemy query filter</description>
+</snippet>

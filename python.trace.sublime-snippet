@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[import pdb; pdb.set_trace()]]></content>
+    <tabTrigger>trace</tabTrigger>
+    <scope>source.python</scope>
+    <description>PDB trace</description>
+</snippet>

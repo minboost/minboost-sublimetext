@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[:param ${1:}: ${2:}
+:type ${1:}: ${3:}]]></content>
+    <tabTrigger>param</tabTrigger>
+    <scope>string.quoted.double.block.python</scope>
+    <description>Sphinx parameter</description>
+</snippet>
