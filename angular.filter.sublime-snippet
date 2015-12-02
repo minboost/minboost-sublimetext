@@ -1,13 +1,17 @@
 <snippet>
-    <content><![CDATA[.filter('${1:filtername}', function(){
+    <content><![CDATA[angular.module('${1:module}').filter('${2:filter}', ${2:filter});
+
+${2:name}.\$inject = [];
+
+function ${2:filter}() {
 	return function (input) {
 
-		${2:// TODO:}
+		$0
 
 		return input;
 	};
-});]]></content>
+}]]></content>
     <tabTrigger>ngfil</tabTrigger>
-    <scope>text.plain, source.js</scope>
+    <scope>source.js, source.js.embedded.html</scope>
     <description>AngularJS filter</description>
 </snippet>

@@ -1,10 +1,12 @@
 <snippet>
-    <content><![CDATA[.controller('${1:name}', ['\$scope', ${2:}
-    function (\$scope${3:}){
-        ${4:// TODO:}
-    }
-])]]></content>
+    <content><![CDATA[angular.module('${1:module}').controller('${2:name}Controller', ${2:name}Controller);
+
+${2:name}Controller.\$inject = [];
+
+function ${2:name}Controller() {
+	$0
+}]]></content>
     <tabTrigger>ngcon</tabTrigger>
-    <scope>text.plain, source.js</scope>
+    <scope>source.js, source.js.embedded.html</scope>
     <description>AngularJS module</description>
 </snippet>

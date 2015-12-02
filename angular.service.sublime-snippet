@@ -1,15 +1,15 @@
 <snippet>
-    <content><![CDATA[.factory('${1:serviceName}', [${2:'${3:\$rootScope}'},
-    function (${2:${3:\$rootScope}}) {
+    <content><![CDATA[angular.module('${1:module}').factory('${2:name}Service', ${2:name}Service);
 
-        var service = {
-        	${4:// TODO:}
-        };
+${2:name}Service.\$inject = [];
 
-        return service;
-    }
-]);]]></content>
+function ${2:name}Service() {
+    var service = {
+    	$0
+    };
+    return service;
+}]]></content>
     <tabTrigger>ngser</tabTrigger>
-    <scope>text.plain, source.js</scope>
+    <scope>source.js, source.js.embedded.html</scope>
     <description>AngularJS service</description>
 </snippet>

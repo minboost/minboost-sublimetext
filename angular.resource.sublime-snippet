@@ -1,11 +1,11 @@
 <snippet>
-    <content><![CDATA[.factory('${1:name}', ['\$resource', function (\$resource) {
+    <content><![CDATA[angular.module('${1:module}').factory('$2:name}', ['\$resource', function (\$resource) {
 
-	var resource = $resource('${2:url}', {id: '@id'});
+	var resource = $resource('${3:url}', {id: '@id'});
 
 	return resource;
 }]);]]></content>
     <tabTrigger>ngres</tabTrigger>
-    <scope>text.plain, source.js</scope>
+    <scope>source.js, source.js.embedded.html</scope>
     <description>AngularJS resource from a factory</description>
 </snippet>

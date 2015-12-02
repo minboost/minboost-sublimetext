@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[\$scope.\$watch('${1:var}', function(newVal, oldVal){
-	${2:// TODO}
+	$0
 });]]></content>
     <tabTrigger>ngwatch</tabTrigger>
-    <scope>text.plain, source.js</scope>
+    <scope>source.js, source.js.embedded.html</scope>
     <description>AngularJS watch</description>
 </snippet>

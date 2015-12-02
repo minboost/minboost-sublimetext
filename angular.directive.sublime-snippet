@@ -1,21 +1,21 @@
 <snippet>
-    <content><![CDATA[.directive('${1:directiveName}', [
-    function () {
-        return {
-            restrict: 'E',
-            replace: true,
-            require : 'ngModel',
-            scope: {
-                ngModel: '='
-            },
-            template: '',
-            link: function (\$scope, element, attrs) {
-                ${2:// TODO:}
-            }
+    <content><![CDATA[angular.module('${1:module}').directive('${2:directive}', ${2:directive});
+
+function ${2:directive}() {
+    return {
+        restrict: 'E',
+        replace: true,
+        require : 'ngModel',
+        scope: {
+            ngModel: '='
+        },
+        template: '',
+        link: function (\$scope, element, attrs) {
+            $0
         }
     }
-]);]]></content>
+}]]></content>
     <tabTrigger>ngdir</tabTrigger>
-    <scope>text.plain, source.js</scope>
+    <scope>source.js, source.js.embedded.html</scope>
     <description>AngularJS directive</description>
 </snippet>

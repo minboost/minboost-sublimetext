@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[\$scope.\$broadcast('${1:event}');]]></content>
+    <tabTrigger>ngbr</tabTrigger>
+    <scope>source.js, source.js.embedded.html</scope>
+    <description>AngularJS broadcast event</description>
+</snippet>

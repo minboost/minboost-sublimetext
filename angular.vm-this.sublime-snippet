@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[var vm = this;]]></content>
+    <tabTrigger>vm</tabTrigger>
+    <scope>source.js</scope>
+    <description>vm View Model</description>
+</snippet>
