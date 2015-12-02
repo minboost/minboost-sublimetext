@@ -1,5 +1,6 @@
 <snippet>
 	<content><![CDATA[assertNull(\$${1:result});]]></content>
 	<tabTrigger>assn</tabTrigger>
+	<scope>source.php</scope>
 	<description>PHPUnit assertNull</description>
 </snippet>

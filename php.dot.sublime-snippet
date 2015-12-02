@@ -1,5 +1,6 @@
 <snippet>
 	<content><![CDATA[->]]></content>
 	<tabTrigger>.</tabTrigger>
+	<scope>source.php, source.php.embedded.line.empty.html, source.php.embedded.block.html</scope>
 	<description>class member selector</description>
 </snippet>

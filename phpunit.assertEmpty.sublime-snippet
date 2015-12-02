@@ -1,5 +1,6 @@
 <snippet>
 	<content><![CDATA[assertEmpty(\$${1:array});]]></content>
 	<tabTrigger>assem</tabTrigger>
+	<scope>source.php</scope>
 	<description>PHPUnit assertEmpty</description>
 </snippet>

@@ -1,5 +1,6 @@
 <snippet>
 	<content><![CDATA[assertClassHasAttribute('${1:attribute}', '${2:class}');]]></content>
 	<tabTrigger>asscha</tabTrigger>
+	<scope>source.php</scope>
 	<description>PHPUnit assertClassHasAttribute</description>
 </snippet>

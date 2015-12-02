@@ -13,5 +13,5 @@ def get_blueprint():
 ]]></content>
     <tabTrigger>blueprint</tabTrigger>
     <scope>source.python</scope>
-    <description>Blueprint Modeul</description>
+    <description>Blueprint Module</description>
 </snippet>

@@ -1,5 +1,6 @@
 <snippet>
 	<content><![CDATA[* @dataProvider ${0:func}]]></content>
 	<tabTrigger>//dp</tabTrigger>
+	<scope>source.php</scope>
 	<description>PHPUnit dataProvider</description>
 </snippet>

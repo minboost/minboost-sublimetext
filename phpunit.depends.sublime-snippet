@@ -1,5 +1,6 @@
 <snippet>
 	<content><![CDATA[* @depends ${0:func}]]></content>
 	<tabTrigger>//dep</tabTrigger>
+	<scope>source.php</scope>
 	<description>PHPUnit depends</description>
 </snippet>

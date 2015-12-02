@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[<?=lang('${1:key}')?>]]></content>
 	<tabTrigger>eelang</tabTrigger>
-	<scope>text</scope>
+	<scope>text.html</scope>
 	<description>CodeIgniter lang()</description>
 </snippet>

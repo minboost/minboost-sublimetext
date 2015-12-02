@@ -3,6 +3,6 @@
 ->method('${2:method}')
 ->will(\$this->returnValue(${3:value}));]]></content>
     <tabTrigger>mock</tabTrigger>
-    <scope>text</scope>
+    <scope>source.php</scope>
     <description>PHPUnit Mock chain</description>
 </snippet>

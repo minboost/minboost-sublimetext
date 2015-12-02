@@ -1,5 +1,6 @@
 <snippet>
 	<content><![CDATA[assertContains(${1:element}, \$${2:array});]]></content>
 	<tabTrigger>assc</tabTrigger>
+	<scope>source.php</scope>
 	<description>PHPUnit assertContains</description>
 </snippet>

@@ -11,6 +11,6 @@
     </body>
 </html>]]></content>
     <tabTrigger>htpage</tabTrigger>
-    <scope>text - source.php</scope>
+    <scope>text.html</scope>
     <description>HTML Page</description>
 </snippet>

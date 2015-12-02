@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[{# ${1:} #}]]></content>
 	<tabTrigger>//</tabTrigger>
-	<scope>source.jinja, text.html.jinja</scope>
+	<scope>text.html, text.html.jinja, source.jinja</scope>
 	<description>Jinja2 comment</description>
 </snippet>

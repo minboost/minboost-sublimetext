@@ -1,5 +1,6 @@
 <snippet>
 	<content><![CDATA[assertGreaterThanOrEqual(${1:value}, \$${2:result});]]></content>
 	<tabTrigger>assgte</tabTrigger>
+	<scope>source.php</scope>
 	<description>PHPUnit assertGreaterThanOrEqual</description>
 </snippet>

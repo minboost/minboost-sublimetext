@@ -18,6 +18,6 @@ class ${1:class_name}_model extends CI_Model
 /* End of file ${2:file_name}.php */
 /* Location: ./application/models/${3:file_path}${2:file_name}.php */]]></content>
 	<tabTrigger>cimodel</tabTrigger>
-	<scope>text</scope>
+	<scope>source.php</scope>
 	<description>CodeIgniter Model</description>
 </snippet>

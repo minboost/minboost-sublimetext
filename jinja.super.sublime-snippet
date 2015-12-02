@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[{{ super() }}]]></content>
 	<tabTrigger>super</tabTrigger>
-	<scope>source.jinja, text.html.jinja</scope>
+	<scope>text.html, text.html.jinja, source.jinja</scope>
 	<description>Jinja2 super()</description>
 </snippet>

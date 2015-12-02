@@ -1,5 +1,6 @@
 <snippet>
 	<content><![CDATA[assertTrue(\$${1:result});]]></content>
 	<tabTrigger>asst</tabTrigger>
+	<scope>source.php</scope>
 	<description>PHPUnit assertTrue</description>
 </snippet>

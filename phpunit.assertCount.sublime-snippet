@@ -1,5 +1,6 @@
 <snippet>
 	<content><![CDATA[assertCount(${1:count}, \$${2:array});]]></content>
 	<tabTrigger>asscou</tabTrigger>
+	<scope>source.php</scope>
 	<description>PHPUnit assertCount</description>
 </snippet>

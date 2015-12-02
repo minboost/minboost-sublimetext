@@ -13,7 +13,7 @@ class ${1:class_name}Test extends PHPUnit_Framework_TestCase
 }
 
 /* End of file ${1:file_name}Test.php */]]></content>
-	<tabTrigger>phptestcase</tabTrigger>
-	<scope>text</scope>
+	<tabTrigger>testcase</tabTrigger>
+	<scope>source.php</scope>
 	<description>PHPUnit TestCase</description>
 </snippet>

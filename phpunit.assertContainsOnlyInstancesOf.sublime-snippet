@@ -1,5 +1,6 @@
 <snippet>
 	<content><![CDATA[assertContainsOnlyInstancesOf('${1:classname}', \$${2:array});]]></content>
 	<tabTrigger>asscoi</tabTrigger>
+	<scope>source.php</scope>
 	<description>PHPUnit assertContainsOnlyInstancesOf</description>
 </snippet>

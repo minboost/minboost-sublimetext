@@ -1,5 +1,6 @@
 <snippet>
 	<content><![CDATA[PHPUnit_Framework_Error]]></content>
 	<tabTrigger>phpunit-error</tabTrigger>
+	<scope>source.php</scope>
 	<description>PHPUnit PHPUnit_Framework_Error</description>
 </snippet>

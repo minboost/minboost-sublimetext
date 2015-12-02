@@ -1,5 +1,6 @@
 <snippet>
 	<content><![CDATA[* @expectedExceptionMessage ${0:message}]]></content>
 	<tabTrigger>//em</tabTrigger>
+	<scope>source.php</scope>
 	<description>PHPUnit expectedExceptionMessage</description>
 </snippet>
