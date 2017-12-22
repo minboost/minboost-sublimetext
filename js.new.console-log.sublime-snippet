@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[console.log(${1:log})]]></content>
-    <tabTrigger>log</tabTrigger>
-    <scope>text.html.vue</scope>
-    <description>Console Log</description>
-</snippet>
