@@ -1,0 +1,55 @@
+<snippet>
+    <content><![CDATA[<template>
+
+</template>
+<script>
+export default {
+    name: '${0:name}',
+    props: {
+        // String
+        // Number
+        // Boolean
+        // Function
+        // Object
+        // Array
+        // Symbol
+    },
+    data: function() {
+        return {
+            ${1:data}
+        }
+    },
+    computed: {
+    },
+    watch: {
+    },
+    beforeCreated: function() {
+    },
+    created: function() {
+    },
+    beforeMount: function() {
+    },
+    mounted: function() {
+    },
+    beforeUpdate: function() {
+    },
+    updated: function() {
+    },
+    beforeDestroy: function() {
+    },
+    destroyed: function() {
+    },
+    methods: {
+    }
+}
+
+</script>
+<style scoped
+       lang="less">
+
+</style>
+]]></content>
+    <tabTrigger>vue</tabTrigger>
+    <scope>text.plain,text.html.vue</scope>
+    <description>Vue Component</description>
+</snippet>

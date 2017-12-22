@@ -1,0 +1,22 @@
+<snippet>
+    <content><![CDATA[beforeCreated: function() {
+},
+created: function() {
+},
+beforeMount: function() {
+},
+mounted: function() {
+},
+beforeUpdate: function() {
+},
+updated: function() {
+},
+beforeDestroy: function() {
+},
+destroyed: function() {
+},
+]]></content>
+    <tabTrigger>hooks</tabTrigger>
+    <scope>text.html.vue</scope>
+    <description>Vue Lifecycle Hooks</description>
+</snippet>
