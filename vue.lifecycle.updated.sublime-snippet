@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[updated () {
+  ${1:}
+},]]></content>
+    <tabTrigger>up</tabTrigger>
+    <scope>text.html.vue meta.object-literal.js</scope>
+    <description>VueJS lifecycle event hook</description>
+</snippet>

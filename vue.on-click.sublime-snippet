@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[v-on:click="${1:}"]]></content>
+    <content><![CDATA[@click="${1:}"]]></content>
     <tabTrigger>click</tabTrigger>
     <scope>text.html.vue meta.tag.inline.any.html</scope>
     <description>click</description>

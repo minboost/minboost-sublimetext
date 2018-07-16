@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[created () {
+  ${1:}
+},]]></content>
+    <tabTrigger>cr</tabTrigger>
+    <scope>text.html.vue meta.object-literal.js</scope>
+    <description>VueJS lifecycle event hook</description>
+</snippet>

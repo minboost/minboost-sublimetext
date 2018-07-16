@@ -1,51 +1,23 @@
 <snippet>
     <content><![CDATA[<template>
-
+  <div></div>
 </template>
+
 <script>
 export default {
-    name: '${0:name}',
-    props: {
-        // String
-        // Number
-        // Boolean
-        // Function
-        // Object
-        // Array
-        // Symbol
-    },
-    data: function() {
-        return {
-            ${1:data}
-        }
-    },
-    computed: {
-    },
-    watch: {
-    },
-    beforeCreated: function() {
-    },
-    created: function() {
-    },
-    beforeMount: function() {
-    },
-    mounted: function() {
-    },
-    beforeUpdate: function() {
-    },
-    updated: function() {
-    },
-    beforeDestroy: function() {
-    },
-    destroyed: function() {
-    },
-    methods: {
+  name: '${0:name}',
+  data() {
+    return {
+      ${1:data}
     }
-}
+  },
+  methods: {
 
+  }
+}
 </script>
-<style scoped
-       lang="less">
+
+<style scoped lang="scss">
 
 </style>
 ]]></content>
