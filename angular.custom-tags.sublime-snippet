@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[{: ${1:} :}]]></content>
-	<tabTrigger>nn</tabTrigger>
-	<scope>text.html, source.jinja, text.html.jinja</scope>
-	<description>Angular non-standards tags</description>
-</snippet>

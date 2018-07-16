@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[\$scope.\$emit('${1:event}');]]></content>
-    <tabTrigger>ngemit</tabTrigger>
-    <scope>source.js, source.js.embedded.html</scope>
-    <description>AngularJS emit event</description>
-</snippet>

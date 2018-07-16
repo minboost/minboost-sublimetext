@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[vm.init = init;
-vm.init();]]></content>
-    <tabTrigger>vminit</tabTrigger>
-    <scope>source.js</scope>
-    <description>vm init</description>
-</snippet>
